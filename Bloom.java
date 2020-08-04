@@ -1,5 +1,6 @@
 // my solution to https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
 // this uses a bloom filter idea to solve the problem
+// this implementation can be sped up by using bitwise operations
 
 public class Bloom {
     public List<Integer> findNumOfValidWords(String[] words, String[] puzzles) {
